@@ -49,7 +49,8 @@ insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manol
 
 select * from user; -- consult table user
 
-![image](https://user-images.githubusercontent.com/84020431/127070896-7edddbb2-5f81-42ff-b153-63c280290b83.png)
+![image](https://user-images.githubusercontent.com/84020431/127071029-82aea418-9569-42e3-a5be-8c828d470c16.png)
+
 
 
 
