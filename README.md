@@ -1,6 +1,6 @@
 ## -- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
 --
--- Host: localhost    Database: spring
+-- Host: localhost    Database: spring security, spring boot.
 -- ------------------------------------------------------
 -- Server version	8.0.0-dmr-log
 
@@ -48,3 +48,8 @@ insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manol
 
 
 select * from user; -- consult table user
+
+![image](https://user-images.githubusercontent.com/84020431/127070771-231b0f36-7cd9-4e35-9f0a-e5a6a9c96d87.png)
+
+
+
