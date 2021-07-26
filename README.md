@@ -75,13 +75,14 @@
      select * from user; 
      
 mysql> select * from user;
-+----+--------+----------+------------+-----------+
-| id | active | password | roles      | user_name |
-+----+--------+----------+------------+-----------+
-|  1 | true   | pass     | ROLE_USER  | user      |
-|  2 | true   | pass     | ROLE_ADMIN | admin     |
-+----+--------+----------+------------+-----------+
-2 rows in set (0.00 sec)
+
+      +----+--------+----------+------------+-----------+
+      | id | active | password | roles      | user_name |
+      +----+--------+----------+------------+-----------+
+      |  1 | true   | pass     | ROLE_USER  | user      |
+      |  2 | true   | pass     | ROLE_ADMIN | admin     |
+      +----+--------+----------+------------+-----------+
+      2 rows in set (0.00 sec)
 
 
 
