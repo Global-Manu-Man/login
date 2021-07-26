@@ -33,7 +33,11 @@
       7 rows in set (0.00 sec)
       
 -- create database users;
-      
+
+     create database users;
+     
+-- Show database users;
+
      mysql> show databases;
      +--------------------+
      | Database           |
@@ -94,6 +98,7 @@
 
 
      insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manolo', 'ROLE_ADMIN', 'Emmanuel');
+     
 
 -- consult table user
 
