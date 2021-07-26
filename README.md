@@ -65,7 +65,7 @@
 --
 
 
--- delete in tagle usersdb.
+-- Delete in the users table if it exists, I doubt it exists in your case.
 
     drop table  if exists `users`; 
 
@@ -91,7 +91,7 @@
     
     );
     
- -- insert database
+ -- insert table user.
 
 
      insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
