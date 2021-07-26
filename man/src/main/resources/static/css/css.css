@@ -1,0 +1,96 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+
+.hi {
+  color:#aaaaaa;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.title {
+  background-color: #e5e5e5;
+  padding: 15px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.body {
+  font-family: Verdana;
+  color: #aaaaaa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: #aaaaaa;
+  height: 80px;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 15px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  color:#aaaaaa;
+}
+
+.main {
+  float: left;
+  text-align: center;
+  width: 60%;
+  padding: 20px;
+  margin-top:20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  height: 700px;
+}
+
+.a {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+
+  .div {
+    background-color:#F0F8FF;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .lower {
+    background-color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+
+  
+}
