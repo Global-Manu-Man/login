@@ -1,5 +1,11 @@
 ## -- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
 --
+-- Host: localhost    Database: spring
+-- ------------------------------------------------------
+-- Server version	8.0.0-dmr-log
+
+
+--
 -- Creation of user and privileges
 --
 
