@@ -32,7 +32,8 @@ drop table  if exists `users`; -- delete in tagle usersdb.
 -- Table structure for table `users`
 --
 
-create table user (   
+    create table user (   
+    
     id bigint(20) not null auto_increment,
     
     active varchar(30) not null,
@@ -45,7 +46,8 @@ create table user (
     
     primary key (id)
     
-    );                             
+    );
+    
  -- crate table users;
 
 
