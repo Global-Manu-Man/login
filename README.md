@@ -18,11 +18,34 @@
 
 -- Validate all users;
 
-      select user FROM mysql.user; 
+      mysql> select user FROM mysql.user; 
+      +------------------+
+      | user             |
+      +------------------+
+      | global           |
+      | java             |
+      | security         |
+      | mysql.infoschema |
+      | mysql.session    |
+      | mysql.sys        |
+      | root             |
+      +------------------+
+      7 rows in set (0.00 sec)
       
 -- create database users;
       
-     create database users;
+     mysql> show databases;
+     +--------------------+
+     | Database           |
+     +--------------------+
+     | information_schema |
+     | mysql              |
+     | performance_schema |
+     | sys                |
+     | users              |
+     | usersdb            |
+     +--------------------+
+    7 rows in set (0.00 sec)
      
      
 -- Gives all privileges to the new user on the newly create database.     
@@ -31,7 +54,7 @@
      
 -- user database users
 
-    USE users; .
+    USE users; 
 
 --
 -- Dumping data for table `users`
@@ -43,8 +66,10 @@
     drop table  if exists `users`; 
 
 --
--- Table structure for table `users`
+-- Table structure for table `user`
 --
+
+-- crate table user;
 
     create table user (   
     
@@ -62,7 +87,7 @@
     
     );
     
- -- crate table users;
+ -- insert database
 
 
      insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
