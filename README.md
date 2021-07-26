@@ -3,6 +3,9 @@
 -- Host: localhost    Database: spring security, spring boot.
 -- ------------------------------------------------------
 -- Server version	8.0.0-dmr-log
+--
+-- Creation of user and privileges
+--
 
 
 create user 'security'@'%' identified by ''; -- create user and password
