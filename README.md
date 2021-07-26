@@ -38,6 +38,7 @@ create table user (
 
 
 insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
+
 insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manolo', 'ROLE_ADMIN', 'Emmanuel');
 
 
