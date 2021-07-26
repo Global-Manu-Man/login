@@ -34,12 +34,19 @@ drop table  if exists `users`; -- delete in tagle usersdb.
 
 create table user (   
     id bigint(20) not null auto_increment,
+    
     active varchar(30) not null,
+    
     password varchar(10) not null,
+    
     roles varchar(30) not null,
+    
     user_name varchar(30) null,
+    
     primary key (id)
-    );                             -- crate table users;
+    
+    );                             
+ -- crate table users;
 
 
 insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
