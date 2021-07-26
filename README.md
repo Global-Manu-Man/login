@@ -65,16 +65,25 @@
  -- crate table users;
 
 
-insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
+     insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
 
 
-insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manolo', 'ROLE_ADMIN', 'Emmanuel');
+     insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manolo', 'ROLE_ADMIN', 'Emmanuel');
 
 -- consult table user
 
      select * from user; 
+     
+mysql> select * from user;
++----+--------+----------+------------+-----------+
+| id | active | password | roles      | user_name |
++----+--------+----------+------------+-----------+
+|  1 | true   | pass     | ROLE_USER  | user      |
+|  2 | true   | pass     | ROLE_ADMIN | admin     |
++----+--------+----------+------------+-----------+
+2 rows in set (0.00 sec)
 
-![image](https://user-images.githubusercontent.com/84020431/127071029-82aea418-9569-42e3-a5be-8c828d470c16.png)
+
 
 
 
