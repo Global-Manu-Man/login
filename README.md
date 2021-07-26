@@ -9,24 +9,38 @@
 -- Creation of user and privileges
 --
 
+-- create user and password
 
-create user 'security'@'%' identified by ''; -- create user and password
+      create user 'security'@'%' identified by ''; 
+-- show users
 
-show grants for 'security'; -- show users
+      show grants for 'security'; 
 
-select user FROM mysql.user; -- Validate all users;
+-- Validate all users;
 
-create database users; -- create database users;
+      select user FROM mysql.user; 
+      
+-- create database users;
+      
+     create database users;
+     
+     
+-- Gives all privileges to the new user on the newly create database.     
 
-grant all on users.* to 'security'@'%'; -- Gives all privileges to the new user on the newly create database.
+     grant all on users.* to 'security'@'%'; 
+     
+-- user database users
 
-USE users; -- user database users.
+    USE users; .
 
 --
 -- Dumping data for table `users`
 --
 
-drop table  if exists `users`; -- delete in tagle usersdb.
+
+-- delete in tagle usersdb.
+
+    drop table  if exists `users`; 
 
 --
 -- Table structure for table `users`
@@ -53,10 +67,12 @@ drop table  if exists `users`; -- delete in tagle usersdb.
 
 insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manu', 'ROLE_USER', 'Emma');
 
+
 insert into `user` (`true`, `root`, `roles`, `user_name`)value ('activo', 'manolo', 'ROLE_ADMIN', 'Emmanuel');
 
+-- consult table user
 
-select * from user; -- consult table user
+     select * from user; 
 
 ![image](https://user-images.githubusercontent.com/84020431/127071029-82aea418-9569-42e3-a5be-8c828d470c16.png)
 
