@@ -5,9 +5,7 @@
 -- Server version	8.0.0-dmr-log
 
 
---
 -- Creation of user and privileges
---
 
 -- create user and password
 
@@ -60,18 +58,15 @@
 
     USE users; 
 
---
+
 -- Dumping data for table `users`
---
 
 
 -- Delete in the users table if it exists, I doubt it exists in your case.
 
     drop table  if exists `users`; 
 
---
--- Table structure for table `user`
---
+-- Table structure for table `user`;
 
 -- crate table user;
 
